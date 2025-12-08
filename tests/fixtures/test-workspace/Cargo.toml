@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "main-crate",
+  "lib-simple",
+  "lib-with-subs",
+  "lib-no-main",
+  "lib-empty",
+]
+resolver = "2"

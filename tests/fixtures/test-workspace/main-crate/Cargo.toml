@@ -1,0 +1,10 @@
+[package]
+name = "main-crate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lib-simple = { path = "../lib-simple" }
+lib-with-subs = { path = "../lib-with-subs" }
+lib-no-main = { path = "../lib-no-main" }
+lib-empty = { path = "../lib-empty" }

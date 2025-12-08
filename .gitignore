@@ -1,0 +1,6 @@
+/target/
+Cargo.lock
+Agents.md
+*.swp
+*.swo
+.DS_Store
