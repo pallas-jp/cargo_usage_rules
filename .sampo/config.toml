@@ -1,6 +1,9 @@
 # Sampo configuration
 version = 1
 
+[git]
+default_branch = "master"
+
 [github]
 # By default, Sampo tries to infer the repository from the git remote.
 # You can override or clarify it here if needed.

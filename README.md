@@ -17,7 +17,7 @@ cargo binstall cargo-usage-rules
 
 Or from source:
 ```sh
-cargo install --git https://github.com/pallus_jp/cargo-usage-rules
+cargo install --git https://github.com/pallas-jp/cargo_usage_rules
 ```
 
 ## Usage
