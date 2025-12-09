@@ -25,7 +25,7 @@ jobs:
             target/release/cargo-usage-rules
           # Options here, see below
         env:
-          CARGO_TOKEN: ${{ secrets.CRATES_IO_KEY }} # For Cargo packages (optional)
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CRATES_IO_KEY }} # For Cargo packages (optional)
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}     # For npm packages (optional, uses .npmrc if not set)
           # HEX_API_KEY: ${{ secrets.HEX_API_KEY }} # For Hex packages (optional)
