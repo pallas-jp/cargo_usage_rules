@@ -1,4 +1,4 @@
-name: Release & Publish With Sampo (Rust, npm, Hex, ...)
+name: Release & Publish With Sampo
 on:
   push:
     branches: [ master ]
@@ -26,6 +26,6 @@ jobs:
           # Options here, see below
         env:
           CARGO_TOKEN: ${{ secrets.CRATES_IO_KEY }} # For Cargo packages (optional)
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}     # For npm packages (optional, uses .npmrc if not set)
           # HEX_API_KEY: ${{ secrets.HEX_API_KEY }} # For Hex packages (optional)
