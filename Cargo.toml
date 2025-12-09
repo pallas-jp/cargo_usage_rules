@@ -1,12 +1,12 @@
 [package]
 name = "cargo-usage-rules"
-version = "0.2.0"
+version = "0.1.0"
 edition = "2021"
 authors = ["Brandon Pollack"]
-description = "A cargo subcommand to aggregate usage-rules.md files from Rust dependencies for AI agent consumption"
-repository = "https://github.com/yourusername/cargo-usage-rules"
-license = "MIT OR Apache-2.0"
-keywords = ["cargo", "subcommand", "ai", "llm", "documentation", "agents"]
+description = "A cargo subcommand to aggregate usage-rules.md files from Rust dependencies for AI agent consumption.  Inspired by https://github.com/ash-project/usage_rules"
+repository = "https://github.com/pallas-jp/cargo-usage-rules"
+license = "Apache-2.0"
+keywords = ["cargo", "subcommand", "ai", "llm", "agents"]
 categories = ["command-line-utilities", "development-tools::cargo-plugins"]
 
 [dependencies]
